@@ -281,7 +281,46 @@ input[type=submit] {
   width: 75%;
 }
 
-@media screen and (max-width: 640px){  
+@media (min-width:769px) and (max-width:980px){
+    section.main-section{
+    width: 50%;
+    max-width: 100%;
+    margin-left: 50px;
+    }
+   .main-section{
+      max-width: 100%
+    }
+    .sidebar{
+      margin-right: 50px;
+    }
+  }
+
+  @media (min-width:641px) and (max-width:768px){
+   #main-container,
+  .sidebar,
+  .main-section {
+    float: right;
+      max-width: 100%;
+/*      width: 100%;*/
+      font-size: 18px;
+      line-height: 25px;
+    }
+  #main-container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  nav {
+      padding-right: 20px;
+    }
+  .work img{
+    width: 100%;
+  }
+  div .work{
+    margin-left: 20px;
+  }
+}
+
+@media (max-width:640px){  
  .auth-image,
  #main-container,
   .sidebar,
@@ -323,39 +362,5 @@ input[type=submit] {
     }
   }
 
-@media screen and (max-width: 768px){
-   #main-container,
-  .sidebar,
-  .main-section {
-/*    float: none;*/
-      max-width: 100%;
-      width: 100%;
-      font-size: 18px;
-      line-height: 25px;
-    }
-  #main-container {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-  nav {
-      padding-right: 20px;
-    }
-  div .container{
-    padding-left: 20px;
-  }
-/*  .work{
-    margin-left: 20px;
-  }*/
-}
 
-/*@media screen and (max-width: 980px){
-    section.main-section,
-    .sidebar{
-    width: 55%;
-    margin-left: 20px;
-    }
-   .main-section{
-      max-width: 100%
-    }
-  }
-  */
+  
